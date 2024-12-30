@@ -6,7 +6,7 @@ function Filter() {
             {/* Price */}
             <div className="flex place-content-center place-items-center mb-8">
                 <h3 className="font-bold text-xl mx-8">Price</h3>
-                <div className="place-content-start">
+                <div className="place-content-start text-left">
                     <label for="101">
                         <input type="radio" name="price" value={500000 - 1500000} id="101"/>
                         5,00,000 - 10,00,000 ₹
@@ -42,7 +42,7 @@ function Filter() {
             {/* Area */}
             <div className="flex place-content-center place-items-center mb-8">
                 <h3 className="font-bold text-xl mx-8">Area</h3>
-                <div className="place-content-start">
+                <div className="place-content-start text-left">
                     <label for="201">
                         <input type="radio" name="area" value={20000 - 40000} id="201"/>
                         20,000 - 40,000 sq.ft.
@@ -78,7 +78,7 @@ function Filter() {
             {/* Discount */}
             <div className="flex place-content-center place-items-center mb-8">
                 <h3 className="font-bold text-xl mx-8">Discount</h3>
-                <div className="place-content-start">
+                <div className="place-content-start text-left">
                     <label for="301">
                         <input type="checkbox" name="discount" value={5 - 15} id="301"/>
                         5 - 15 %
@@ -113,8 +113,8 @@ function Filter() {
 
             {/* Rating */}
             <div className="flex place-content-center place-items-center mb-8">
-                <h3 className="font-bold text-xl mx-8">Discount</h3>
-                <div className="place-content-start">
+                <h3 className="font-bold text-xl mx-8">Rating</h3>
+                <div className="place-content-start text-left">
                     <label for="301">
                         <input type="checkbox" name="discount" value={1 - 2} id="301"/>
                         1 - 2
